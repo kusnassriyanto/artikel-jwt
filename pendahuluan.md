@@ -1,0 +1,16 @@
+## Pendahuluan
+
+Aplikasi web adalah program komputer yang diakses melalui internet melalui peramban web atau browser. Ini berarti aplikasi tersebut tidak perlu diunduh atau diinstal secara lokal pada perangkat pengguna, tetapi dapat diakses dan digunakan secara langsung melalui tautan URL yang diberikan.
+
+Aplikasi web terdiri dari dua komponen utama: sisi klien (client-side) dan sisi server (server-side). Pada sisi klien, terdapat perangkat lunak yang dijalankan di peramban web pengguna dan bertanggung jawab untuk menampilkan antarmuka pengguna serta berinteraksi dengan pengguna. Biasanya, teknologi web seperti HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), dan JavaScript digunakan untuk mengembangkan bagian klien dari aplikasi web.
+
+Sisi server dari aplikasi web mengacu pada bagian yang berjalan di server. Ini berisi logika bisnis aplikasi, pengolahan data, dan akses ke berbagai sumber daya seperti basis data. Bahasa pemrograman seperti Node.js, PHP, Python, Java, atau .NET sering digunakan untuk mengembangkan bagian server dari aplikasi web. Server mengirimkan data yang diminta oleh peramban web klien, memproses permintaan tersebut, dan menghasilkan respons yang dikirim kembali ke klien. 
+
+Komunikasi antara sisi klien dengan sisi server dilakukan menggunakan protokol yang disebut HTTP (Hypertext Transfer Protocol). Salah satu karakteristik utama HTTP adalah sifat stateless-nya. Ini berarti server tidak menyimpan informasi tentang permintaan sebelumnya dari klien. Setiap permintaan dianggap sebagai permintaan yang mandiri tanpa pengetahuan tentang sesi atau status sebelumnya. Namun, dalam banyak aplikasi web, penting untuk menjaga konteks dan informasi pengguna selama interaksi mereka dengan aplikasi. Inilah dimana session diperlukan.
+
+Dalam konteks HTTP, session merupakan mekanisme yang digunakan untuk menyimpan informasi dan mempertahankan status antara permintaan-permintaan yang dilakukan oleh klien (client) ke server. Secara khusus, session digunakan untuk memelihara konteks yang spesifik untuk setiap pengguna atau klien yang terhubung ke aplikasi web.
+
+Salah satu aspek penting dalam aplikasi Web adalah terkait aspek keamanan data, dimana harus dipastikan bahwa hanya user yang berhak yang dapat mengakses resource tertentu. Oleh sebab itu, otentikasi dan otorisasi merupakan mekanisme yang sangat penting, dimana otentikasi adalah mekanisme untuk memeriksa identitas pengguna atau klien yang ingin melakukan akses, sedangkan otorisasi adalah mekanisme untuk mengatur izin penggunaan resource yang akan digunakan. Proses otentikasi dan otorisasi ini akan memanfaatkan session untuk menjaga kontinuitas request yang dikirim ke server. 
+
+Selanjutnya, terkait aspek keamanannya, aplikasi web mesti memastikan bahwa session tidak dapat disusupi oleh data lain dari pihak yang tidak berhak. Ada berbagai cara untuk melakukannya. Salah satu yang paling populer adalah menggunakan JSON Web Token (JWT).
+Dalam kaitannya dengan pengelolaan otentikasi dan otorisasi, penggunaan JWT sangat popular. 
