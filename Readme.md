@@ -1,4 +1,4 @@
-# JWT - JSON Web Token
+# JSON Web Token (JWT)
 
 JSON Web Token sangat popular digunakan dalam mekanisme otentikasi dan otorisasi karena sifatnya yang sangat sederhana, sehingga mudah diimplementasikan, serta ditandatangani dengan metode enkripsi, sehingga dapat dipastikan keabsahannya. Sifat lain yang juga popular adalah stateless yang artinya server tidak perlu menyimpan informasi tentang token yang diberikan, yang mana ini akan meningkatkan skalabilitasnya.
 
@@ -60,33 +60,33 @@ Artikel ini diharapkan dapat membantu pembaca dalam memahami secara lebih mendal
  
 ## Referensi
 1. RFC 7519 - JSON Web Token (JWT)
-  - Penulis: M. Jones, J. Bradley, N. Sakimura
-  - Tahun: 2015
-  - Publikasi: Internet Engineering Task Force (IETF)
-  - URL: https://tools.ietf.org/html/rfc7519
+    - Penulis: M. Jones, J. Bradley, N. Sakimura
+    - Tahun: 2015
+    - Publikasi: Internet Engineering Task Force (IETF)
+    - URL: https://tools.ietf.org/html/rfc7519
 2. RFC 7515 - JSON Web Signature (JWS)
-  - Penulis: M. Jones, J. Bradley, N. Sakimura
-  - Tahun: 2015
-  - Publikasi: Internet Engineering Task Force (IETF)
-  - URL: https://tools.ietf.org/html/rfc7515
+    - Penulis: M. Jones, J. Bradley, N. Sakimura
+    - Tahun: 2015
+    - Publikasi: Internet Engineering Task Force (IETF)
+    - URL: https://tools.ietf.org/html/rfc7515
 3. RFC 7516 - JSON Web Encryption (JWE)
-  - Penulis: M. Jones, J. Hildebrand
-  - Tahun: 2015
-  - Publikasi: Internet Engineering Task Force (IETF)
-  - URL: https://tools.ietf.org/html/rfc7516
+    - Penulis: M. Jones, J. Hildebrand
+    - Tahun: 2015
+    - Publikasi: Internet Engineering Task Force (IETF)
+    - URL: https://tools.ietf.org/html/rfc7516
 4. The JWT Handbook
-  - Sebastian Peyrott
-  - Publikasi: Auth0
-  - URL: https://auth0.com/resources/ebooks/jwt-handbook
+    - Sebastian Peyrott
+    - Publikasi: Auth0
+    - URL: https://auth0.com/resources/ebooks/jwt-handbook
 5. Introduction to JSON Web Tokens
-  - Author: jwt.io
-  - URL: https://jwt.io/introduction
-6. jsonwebtoken
-  - Author: Auth0
-  - URL: https://github.com/auth0/node-jsonwebtoken
-7. jose
-  - Author: Filip Skokan
-  - URL: https://github.com/panva/jose
+    - Author: jwt.io
+    - URL: https://jwt.io/introduction
+6. Library **jsonwebtoken**
+    - Author: Auth0
+    - URL: https://github.com/auth0/node-jsonwebtoken
+7. Library **jose**
+    - Author: Filip Skokan
+    - URL: https://github.com/panva/jose
 
 
 
