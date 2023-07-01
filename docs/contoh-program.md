@@ -162,7 +162,7 @@ Decoded: {
 
 Bila kita periksa dengan tools online jwt.io, maka hasilnya akan sama persis dengan hasil eksekusi di atas, seperti terlihat berikut ini.
 
-![contoh-2](jwt-contoh-2.png)
+![contoh-2](../img/jwt-contoh-2.png)
 
 ### Menggunakan Library jsonwebtoken
 

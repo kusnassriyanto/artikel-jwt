@@ -80,4 +80,4 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QtRXhhbXBsZSIsImV4cCI6MTY4NjQ
 #### Menggunakan Tool Online
 Untuk membuat dan menganalisis JWT, kita dapat menggunakan tool online yang banyak tersedia di internet. Salah satunya dengan alamat https://jwt.io 
 
-![contoh-jwt](jwt-contoh.png)
+![contoh-jwt](../img/jwt-contoh.png)

@@ -8,24 +8,45 @@ Artikel ini akan menjelaskan secara detail tentang JWT, termasuk contoh program 
 
 ## Daftar Isi
 
-[link text](http://dev.nodeca.com)
-
-- [Pendahuluan](./pendahuluan.md)
-- [Apa Itu JWT](./apa-itu-jwt.md)
-  - [Contoh JWT](./apa-itu-jwt.md#contoh-jwt)
-- [JWT Claim Set](./jwt-claims-set.md)
-  - [Nama-nama Klaim Standar](./jwt-claims-set.md#nama-nama-klaim-standar)
-  - [Nama Klaim Publik](./jwt-claims-set.md#nama-klaim-publik)
-  - [Nama Klaim Private](./jwt-claims-set.md#nama-klaim-privat)
-- [JOSE Header](./jose-header.md)
-  - [Member dalam JOSE Header](./jose-header.md#member-dalam-jose-header)
-  - [Contoh JOSE Header](./jose-header.md#contoh-jose-header)
-- [Contoh Program](./contoh-program.md)
-  - [Contoh tanpa Library External](./contoh-program.md#contoh-tanpa-library-external)
-  - [Contoh dengan Library **jsonwebtoken**](./contoh-program.md#menggunakan-library-jsonwebtoken)
-  - [Contoh dengan Libray **jose**](./contoh-program.md#menggunakan-library-jose)
+- [Pendahuluan](./docs/pendahuluan.md)
+- [Apa Itu JWT](./docs/apa-itu-jwt.md)
+  - [Contoh JWT](./docs/apa-itu-jwt.md#contoh-jwt)
+- [JWT Claim Set](./docs/jwt-claims-set.md)
+  - [Nama-nama Klaim Standar](./docs/jwt-claims-set.md#nama-nama-klaim-standar)
+  - [Nama Klaim Publik](./docs/jwt-claims-set.md#nama-klaim-publik)
+  - [Nama Klaim Private](./docs/jwt-claims-set.md#nama-klaim-privat)
+- [JOSE Header](./docs/jose-header.md)
+  - [Member dalam JOSE Header](./docs/jose-header.md#member-dalam-jose-header)
+  - [Contoh JOSE Header](./docs/jose-header.md#contoh-jose-header)
+- [Contoh Program](./docs/contoh-program.md)
+  - [Contoh tanpa Library External](./docs/contoh-program.md#contoh-tanpa-library-external)
+  - [Contoh dengan Library **jsonwebtoken**](./docs/contoh-program.md#menggunakan-library-jsonwebtoken)
+  - [Contoh dengan Libray **jose**](./docs/contoh-program.md#menggunakan-library-jose)
 - [Penutup](#penutup)
 - [Referensi](#referensi)
+
+## Daftar Program
+- [Contoh JWT](./src/jwt_example.js)
+  Contoh kode program untuk menghasilkan JWT tanpa menggunakan library external, hanya menggunakan library **crypto** yang sudah *built-in* dalam NodeJs.
+
+- [Contoh JWT tanpa Library Eksternal](./src/jwt_native.js)
+  Contoh kode program untuk Membuat JWT, Memeriksa JWT, serta melihat data klaim dalam JWT tanpa menggunakan library eksternal, hanya menggunakan library **crypto** yang sudah *built-in* dalam NodeJs.
+
+- [Contoh JWT dengan Lib **jsonwebtoken** HS256](./src/jwt_jsonwebtoken_1.js)
+  Contoh kode program untuk membuat JWT, memeriksa JWT, dan melihat data di dalamnya dengan algoritma *signature* HS256 menggunakan library **jsonwebtoken**
+
+- [Contoh Pembuatan Private dan Public Key](./src/jwt_create_keys.js)
+  Contoh kode program untuk menggenerate private key dan public key menggunakan algoritma rsa 2048 bit, dan menyimpannya dalam file.
+
+- [Contoh JWT dengan Lib **jsonwebtoken** RS256](./src/jwt_jsonwebtoken_2.js)
+  Contoh kode program untuk membuat dan memeriksa JWT menggunakan algoritma *signature* RS256 dengan memanfaatkan private dan public key yang sudah dibuat sebelumnya. Pada contoh ini, JWT di-*sign* dengan private key dan diperiksa dengan public key.
+
+- [Contoh JWT dengan Lib **jose** RS256](./src/jwt_jose_1.js)
+  Contoh kode program untuk membuat dan memeriksa JWT menggunakan library **jose** dengan algoritma *signature* RS256 dengan memanfaatkan private dan public key yang sudah dibuat sebelumnya. Pada contoh ini, JWT di-*sign* dengan private key dan diperiksa dengan public key.
+
+- [Contoh Encrypted JWT (JWE) dengan Lib **jose**](./src/jwt_jose_2.js)
+  Contoh kode program untuk membuat dan memeriksa JWT yang terenkripsi (JWE) menggunakan library **jose** memanfaatkan private dan public key yang sudah dibuat sebelumnya. Pada contoh ini JWE akan di-encrypt dengan public key dan akan di-decrypt dengan private key.
+
 
 ## Penutup
 
